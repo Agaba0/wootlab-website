@@ -8,16 +8,18 @@
     <link rel="icon" href="img/wootlab.png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-red-200">
     <section>
         <div>
             <div>
                <!-- <img class="w-40 p-8"  src="../img/wootlab.png" alt="wootlab logo"> -->
-            <div>
-    
                 <div>
+                    <div><svg class="w-10 md:hidden" id="menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                      </svg>
+                      </div>
                     <nav>
-                        <ul class="flex justify-center mt-10 space-x-11">
+                        <ul id="list" class= "hidden md:flex justify-center mt-10 space-x-11">
                             <li><a class="hover:text-lg" href="#">Blog</a></li>
                             <li><a class="hover:text-lg" href="#">Foundation</a></li>
                             <li><a class="hover:text-lg" href="#">Academy</a></li>
@@ -29,7 +31,6 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -90,13 +91,13 @@
             <section class="flex justify-between mt-40">
                     <div class= "ml-20">
                         <div   class="w-96 mr-20">
-                            <h2 class="text-3xl inline-block mb-10">Small & Medium Enterprises</h2>
+                            <h2 class="font-bold flex md:text-2xl mb-10">Small & Medium Enterprises</h2>
                         <span  class="text-lg">Our flexible plans for SMEs have been structured to accommodate current needs while making room for growth and expansion.</span>
                         </div>
                         <input class="bg-blue-700 text-white p-3 rounded-full uppercase mt-6 cursor-pointer hover:bg-blue-500" type="button" value="`View SMEs plans">
                     </div>
                 <div>
-                    <img class="w-96 mr-20 rounded h-80"  src="img/5.jpg" alt="">
+                    <img class="mr-20 mt-16 rounded shadow-xl"  src="img/5.jpg" alt="">
                 </div>
             </section>
             <section>
@@ -134,7 +135,7 @@
                     <p></p>
                 </div>
             </section>
-            <div class="flex justify-between relative">
+            <div class="flex wrap justify-between relative">
                 <div>
                     <img class="ml-20 mt-24 rounded shadow-xl" src="img/Frame 56.png" alt="">
                 </div>
@@ -145,11 +146,11 @@
             </div>
             </div>
             <div class="font-bold text-center text-3xl m-32">Our Partners</div>
-            <footer class="h-96 bg-gray-700 opacity-70 relative">
-                <div class="relative">
+            <footer class="h-auto w-full bg-gray-700 opacity-70 relative">
+                <div class="relative flex-wrap">
                     <div class="w-96 ml-24 absolute top-16">
                         <a href="wootlab.ng"><img class="w-48 mb-12" src="img/wootlab.png" alt=""></a>
-                        <p class="text-white text-xl">We are a team of competent developers from around the world that give life to great ideas and help leading companies build the world's best engineering teams</p>
+                        <p class="text-white text-xl hidden md:block">We are a team of competent developers from around the world that give life to great ideas and help leading companies build the world's best engineering teams</p>
                     </div>
                     <div class="h-32"></div>
                     <div class="flex justify-end">
@@ -178,4 +179,5 @@
         </section>
     </main>
 </body>
+<script src="index.js"></script>
 </html>
