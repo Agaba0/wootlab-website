@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wootlab</title>
+    <link rel="icon" href="../img/wootlab.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../src/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -18,25 +20,24 @@
                 <div>
                     <nav>
                         <ul class="flex justify-center mt-10 space-x-11">
-                            <li><a class="hover:bg-gray-600" href="#">Blog</a></li>
-                            <li><a class="hover:bg-gray-600" href="#">Foundation</a></li>
-                            <li><a class="hover:bg-gray-600" href="#">Academy</a></li>
-                            <li><a class="hover:bg-gray-600" href="#">Join Us</a></li>
-                            <li><a class="hover:bg-gray-600" href="#">Contact Us</a></li>
+                            <li><a class="hover:text-lg" href="#">Blog</a></li>
+                            <li><a class="hover:text-lg" href="#">Foundation</a></li>
+                            <li><a class="hover:text-lg" href="#">Academy</a></li>
+                            <li><a class="hover:text-lg" href="#">Join Us</a></li>
+                            <li><a class="hover:text-lg" href="#">Contact Us</a></li>
                             <div class="btn inline-block cursor-pointer hover:bg-blue-500">
                                 <input class="uppercase " type="button" value="hire-developer">
                             </div>
                         </ul>
                     </nav>
                 </div>
-                
             </div>
         </div>
     </section>
 
     <main>
         <section class="flex justify-between">
-            <div class="w-96 mt-28 ml-20"><h1><span class="text-3xl inline-block">Hire experienced and vetted developers</span>
+            <div class="w-96 mt-28 ml-20 right"><h1><span class="text-3xl inline-block">Hire experienced and vetted developers</span>
                      <p class="mt-9 text-lg">Go from great ideas to great products with remote engineering teams from around the world.</p> 
                     </h1>
                 <input class="bg-blue-700 text-white p-3 rounded mt-8 cursor-pointer hover:bg-blue-500 uppercase" type="button" value="hire-developer">
@@ -102,11 +103,11 @@
             </section>
             <section>
                 <!-- the big color space -->
-                <div class="bg-blue-400 h-96 relative mt-52">
+                <div class="bg-blue-500 h-96 relative mt-52">
                     <div class="text-center">
                         <h2 class="text-3xl">Hire and Manage remote engineering teams</h2>
                         <span class="block mt-16">Tell us the skills you need and we'll match you with the right talent today!</span>
-                        <input class="bg-blue-700 text-white p-3 mt-7 rounded hover:bg-blue-900 cursor-pointer" type="button" value="Hire Developer">
+                        <input class="bg-blue-900 text-white p-3 mt-7 rounded hover:bg-blue-300 cursor-pointer" type="button" value="Hire Developer">
                     </div>
                 </div>
             </section>
@@ -145,6 +146,37 @@
                 <div class="absolute mt-12 bg-blue-700 text-white p-3 rounded hover:bg-blue-400 cursor-pointer"><input type="button" value="Hire developers"></div>
             </div>
             </div>
+            <div class="font-bold text-center text-3xl m-32">Our Partners</div>
+            <footer class="h-96 bg-gray-700 opacity-70 relative">
+                <div class="relative">
+                    <div class="w-96 ml-24 absolute top-16">
+                        <a href="wootlab.ng"><img class="w-48 mb-12" src="../img/wootlab.png" alt=""></a>
+                        <p class="text-white text-xl">We are a team of competent developers from around the world that give life to great ideas and help leading companies build the world's best engineering teams</p>
+                    </div>
+                    <div class="h-32"></div>
+                    <div class="flex justify-end">
+                        <div class="w-56 text-white text-xl space-y-4">
+                            <a class="block" href="#">Hire developers</a>
+                            <a class="block" href="#">Blog</a>
+                            <a class="block" href="#">Join Wootlab</a>
+                            <a class="block" href="#">Academy</a>
+                        </div>
+                        <div class="w-56 text-white text-xl space-y-4">
+                            <a class="block" href="#">Foundation</a>
+                            <a class="block" href="#">SME Bundles</a>
+                            <a class="block" href="#">KidsCypher</a>
+                            <a class="block" href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-4 absolute top-80 left-96">
+                   <a href="#"> <img class="w-12 h-12 hover:scale-90" src="../img/instagram.jpg" alt=""></a>
+                    <a href="#"><img class="w-12 h-12 hover:scale-90" src="../img/linkedin.png" alt=""></a>
+                    <a href="#"><img class="w-12 h-12 hover:scale-90" src="../img/facebook.png" alt=""></a>
+                    <a href="#"><img class="w-12 h-12 hover:scale-90" src="../img/twit.png" alt=""></a>
+                </div>
+            </footer>
         </section>
     </main>
 </body>

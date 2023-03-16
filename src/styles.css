@@ -9,3 +9,12 @@
 .btnHover{
     @apply hover:bg-blue-300 cursor-pointer
 }
+
+@keyframes transitRight {
+    0% {right: 50%;}
+}
+
+.right {
+    animation-name: trasitRight;
+    animation-duration: 2s;
+}
