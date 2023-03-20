@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    float: right;
+}
+
+.animation1, .animation2, .animation3, .animation4, .animation5 {
+    animation-name: leftAnimation;
+    animation-duration: 4s;
+}
+
+.animation1a, .animation2a, .animation3a, .animation4a, .animation5a {
+    animation-name: rightAnimation;
+    animation-duration: 4s;
+} 
+
+@keyframes rightAnimation {
+    0% {transform: translateX(30px);}
+}
+
+@keyframes leftAnimation {
+    0% {transform: translateX(-30px);}
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class = "main"] {
+      width: 100%;
+    }
+  }
+
+
+  
