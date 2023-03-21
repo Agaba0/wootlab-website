@@ -26,13 +26,26 @@
     0% {transform: translateX(-30px);}
 }
 
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class = "main"] {
-      width: 100%;
+@media screen and (max-width:500px){
+    *{
+        margin: 0px;
+        padding: 0px;
     }
-  }
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        overflow: visible;
+    }
 
-  
+    .container > * {
+        grid-column: 1;
+    }
+
+    .section1, .section2, .section3, .section4, .section5{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
